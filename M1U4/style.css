@@ -1,0 +1,75 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: chartreuse;
+    text-align: center;
+    background-color: darkslateblue;
+    padding: 30px;
+    font-size: 50px;
+}
+
+img {
+    padding-left: 450px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.datos {
+    text-align: justify;
+    border: 10px;
+    border-color: black;
+    background-color: aquamarine;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 430px;
+}
+
+.Habilidades {
+    text-align: justify;
+    background-color: rgb(102, 214, 67);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 430px;
+}
+
+.edu {
+    text-align: justify;
+    background-color: rgb(204, 58, 58);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 430px;
+}
+
+.exp {
+    text-align: justify;
+    background-color: rgb(213, 231, 44);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 430px;
+}
+
+.dep {
+    text-align: center;
+    background-color: rgb(190, 88, 185);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.idi {
+    text-align: center;
+    background-color: rgb(140, 145, 100);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+form {
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+    font-size: larger;
+}
+
+b {
+    font-size: 25px;
+}
