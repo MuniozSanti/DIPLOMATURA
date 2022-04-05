@@ -5,6 +5,7 @@ h1 {
     background-color: darkslateblue;
     padding: 30px;
     font-size: 50px;
+    border: 2px solid rgb(43, 116, 226);
 }
 
 img {
@@ -24,6 +25,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 430px;
+    border: 2px solid blueviolet;
 }
 
 .Habilidades {
@@ -32,6 +34,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 430px;
+    border: 2px solid rgb(38, 139, 25);
 }
 
 .edu {
@@ -40,6 +43,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 430px;
+    border: 2px solid rgb(168, 0, 0);
 }
 
 .exp {
@@ -48,6 +52,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 430px;
+    border: 2px solid rgb(102, 243, 20);
 }
 
 .dep {
@@ -55,6 +60,7 @@ h2{
     background-color: rgb(190, 88, 185);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    border: 2px solid rgb(110, 0, 212);
 }
 
 .idi {
@@ -62,6 +68,7 @@ h2{
     background-color: rgb(140, 145, 100);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 form {
@@ -72,4 +79,8 @@ form {
 
 b {
     font-size: 25px;
+}
+
+body{
+    background-color: rgb(253, 205, 143);
 }
