@@ -1,0 +1,49 @@
+#contenedor {
+    border: solid black 2px;
+    width: 600px;
+    height: 600px;
+    color: white;
+    text-align: center;
+    margin: auto; 
+}
+
+#rojo {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: white;
+    position: relative;
+    left: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#azul {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+    position: relative;
+    left: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verde {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    color: white;
+    position: relative;
+    left: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
