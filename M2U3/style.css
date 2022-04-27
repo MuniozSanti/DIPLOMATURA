@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+   font-family: 'Montserrat', sans-serif;
+   
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+    transition: all 0.3s ease 0.2s;
+}
+
+nav:hover {
+    -webkit-box-shadow: 6px 7px 5px 0px rgba(156,156,156,0.65);
+     -moz-box-shadow: 6px 7px 5px 0px rgba(156,156,156,0.65);
+     box-shadow: 6px 7px 5px 0px rgba(32, 32, 32, 0.65);
+    
+     transform: scale(1.05);
+}
+
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+    transition: all 0.3s ease 0.2s;
+}
+section:hover {
+    -webkit-box-shadow: 6px 7px 5px 0px rgba(156,156,156,0.65);
+    -moz-box-shadow: 6px 7px 5px 0px rgba(156,156,156,0.65);
+    box-shadow: 6px 7px 5px 0px rgba(32, 32, 32, 0.65);
+
+   
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+
+    transition: all 0.3s ease 0.2s;
+}
+aside:hover{
+    background-color: rgb(122, 122, 122);
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        width: 100%;
+        background-color: goldenrod;
+        color: black;
+    }
+
+    section {
+        width: 100%;
+        background-color: rgb(190, 190, 189);
+        border-top: solid 1px black;
+        border-bottom: solid 1px black;
+        margin-left: 0%;
+    }
+
+    aside {
+        width: 100%;
+        background-color: #818381;
+    }
+
+}
