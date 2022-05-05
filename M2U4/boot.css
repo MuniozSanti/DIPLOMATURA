@@ -1,0 +1,39 @@
+.accordion{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.alert{
+    margin-top: 40px;
+}
+.btn{
+    width: 30%;
+    margin: auto;
+}
+
+.btn a{
+    color: white;
+}
+.btn a:hover{
+    color: white;
+}
+.list-group{
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width: 480px)
+{
+    .accordion{
+        width: 100%;
+    }
+    .d-inline-block{
+        width: 50%;
+    }
+    .btn{
+        width: 60%;
+    }
+}
