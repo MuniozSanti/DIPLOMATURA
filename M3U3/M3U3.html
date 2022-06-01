@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Ejericio 1:</h2>
+    <script>
+        var nombre;
+        var distancia;
+
+        nombre = prompt('ingrese su nombre', '');
+        distancia = prompt('ingrese la distancia', '')
+
+        if ((distancia >= 0) && (distancia <= 1000)) {
+            document.write('Hola ' + nombre + ', tu medio de transporte es a pie.')
+        }
+        else if ((distancia > 1000) && (distancia <= 10000)) {
+            document.write('Hola ' + nombre + ', tu medio de transporte es bicicleta.')
+        }
+        else if ((distancia > 10000) && (distancia <= 30000)) {
+            document.write('Hola ' + nombre + ', tu medio de transporte es colectivo.')
+        }
+        else if ((distancia > 30000) && (distancia <= 100000)) {
+            document.write('Hola ' + nombre + ', tu medio de transporte es auto.')
+        }
+        else if (distancia > 100000) {
+            document.write('Hola ' + nombre + ', tu medio de transporte es avión.')
+        }
+    </script>
+
+    <h2>Ejercicio 2:</h2>
+    <script>
+        var conjunto = [450, 43, 78, 98, 12, 999, 1101];
+        var mayor = Math.max(...conjunto);
+
+        { document.write("El numero mayor es el ", " ", mayor); }
+    </script>
+</body>
+
+</html>
