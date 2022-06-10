@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Ejercicio 1:</h2>
+    <div class="contenedor">
+        <div class=" cuadrado rojo" onclick="CambioDeFondo('red')"></div>
+        <div class=" cuadrado verde" onclick="CambioDeFondo('green')"></div>
+        <div class=" cuadrado azul" onclick="CambioDeFondo('blue')"></div>
+    </div>
+
+    <script>
+        function CambioDeFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+
+    <h2>Ejercicio 2:</h2>
+    <textarea name="" id="texto" cols="30" rows="10"></textarea>
+    <p>Carácteres: <span id="contar"></span></p>
+
+    <script>
+        var texto = document.getElementById('texto');
+        var contar = document.getElementById('contar')
+
+        texto.addEventListener('keyup', function () {
+            contar.innerText = texto.value.length;
+        })
+    </script>
+
+    <h2>Ejercicio 3:</h2>
+    <script>
+        var alumnos = [
+            {
+                nombre: 'Juan Gomez',
+                nota: 7
+            }, {
+                nombre: 'Pedro Rodriguez',
+                nota: 4
+            }, {
+                nombre: 'Roxana García',
+                nota: 8
+            }, {
+                nombre: 'Luciano Lopez',
+                nota: 5
+            }, {
+                nombre: 'Fernanda Gimenez',
+                nota: 6
+            }, {
+                nombre: 'Florencia Martinez',
+                nota: 10
+            }, {
+                nombre: 'Raul Sanchez',
+                nota: 7
+            }, {
+                nombre: 'Sandra Figueroa',
+                nota: 8
+            }
+        ];
+
+        var aprobados = alumnos.filter(function (alumno){
+            return alumno.nota >= 7;
+        });
+    
+        console.log(aprobados)
+
+        aprobados.forEach(a => document.write(`${a.nombre} (${a.nota}) <br>`))
+
+
+
+
+    </script>
+</body>
+
+</html>
