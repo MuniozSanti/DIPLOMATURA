@@ -1,0 +1,86 @@
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+header{
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 2px 26px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 26px -12px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 26px -12px rgba(0,0,0,0.75);
+}
+.header{
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 70px;
+  margin: auto;
+}
+
+.main{
+  max-width: 960px;
+  margin: auto;
+}
+
+footer{
+  background-color: #ccc;
+  clear: both;
+  color:#333;
+  padding: 50px;
+  margin-top: 70px;
+  text-align: center;
+  height: 70px;
+  align-items: center; 
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+  left: 0;
+  padding-bottom: 60px;
+}
+
+.login{
+  padding-top: 200px;
+}
+
+.admin-cont{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 580px) {
+  footer{
+    background-color: #ccc;
+    clear: both;
+    color:#333;
+    padding: 50px;
+    margin-top: 70px;
+    text-align: center;
+    height: 30px;
+    align-items: center; 
+    position: absolute;
+    bottom: 0; 
+  }
+
+  .login{
+    padding-top: 150px;
+  }
+  .mb-3{
+    width: 80%;
+    margin-left: 40px;
+    
+  }
+  .btn{
+    margin-left: 40px;
+    
+  }
+}
