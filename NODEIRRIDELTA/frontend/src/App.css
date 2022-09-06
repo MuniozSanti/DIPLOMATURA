@@ -1,0 +1,402 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  min-height: 70px;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 2px 26px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 26px -12px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 26px -12px rgba(0,0,0,0.75);
+}
+.header{
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 70px;
+  margin-left: 40px;
+  padding-left: 35px;
+}
+
+.menu ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 35px 0 0;
+  font-family: 'Lato', sans-serif;
+}
+.holder-menu {
+  align-items: center;
+  padding-right: 40px;
+  font-weight: 800;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+nav a:hover{
+  color: blue;
+}
+
+.ig-icono, .fbk-icono{
+  transition: all 0.3s ease 0.1s;
+}
+.ig-icono:hover , .fbk-icono:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.main{
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.main, .novedades{
+  padding-top: 3%;
+}
+
+/* .main-img{
+  width: 960px;
+  margin: auto;
+  height: 400px;
+  padding-top: 90px;
+} */
+
+.activo{
+  color: blue;
+}
+
+/* Nosotros */
+.slider{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background: blueviolet;
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+  text-align: center;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+}
+.ola{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  height: 150px; 
+  overflow: hidden;
+}
+svg {
+  height: 100%; 
+  width: 100%;
+}
+
+.titulo1{
+  font-size: 64px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin-top: -4%;
+}
+.titulo2{
+  font-size: 34px;
+  font-weight: 700;
+  color: white;
+  padding-top: 30px;
+}
+.texto-main{
+  line-height: 1.7;
+  text-align: justify;
+}
+path{
+stroke: none; 
+fill: rgb(255, 255, 255);
+}
+.main{
+  font-family: 'Lato', sans-serif;
+}
+.main h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+/* fin nosotros */
+
+/* productos */
+.productos{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.titulo-produc{
+  padding-top: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-productos ul li{
+  display: flex;
+  font-size: 20px;
+  padding-top: 35px;
+  padding-right: 35px;
+  text-align: center;
+  font-weight: 700;
+  list-style-type: none;
+}
+
+.div-pileta{
+  padding-top: 120px;
+  width: 100%;
+  height: 85%;
+  background-color: #bdbdbd88;
+  border-radius: 7px;
+  text-align: center;
+}
+.div-pileta h2{
+  padding-bottom: 40px;
+}
+.div-pileta, .Card{
+  padding-right: 20px;
+  padding-left: 25px;
+}
+.row{
+  padding: 30px 20px 0 20px;
+}
+
+.Card-Body {
+  height: 7rem;
+}
+.card{
+  margin-right: 20px;
+  border-radius: 5px;
+   transition: all ease 0.3s; 
+}
+.card:hover{
+  -webkit-box-shadow: 5px 6px 5px 1px rgba(143,143,143,1);
+-moz-box-shadow: 5px 6px 5px 1px rgba(143,143,143,1);
+box-shadow: 5px 6px 5px 1px rgba(143,143,143,1);
+
+background-color: rgb(148, 148, 148);
+}
+.img:hover{
+  background-color: rgb(148, 148, 148);
+}
+/* fin productos */
+
+/* contacto */
+.holder {
+  max-width: 960px;
+  margin: auto;
+}
+.contacto{
+  display: flex;
+  gap: 50px;
+}
+.contacto div{
+  width: 100%;
+}
+.titulo-contacto{
+  padding-top: 7.3rem;
+  font-weight: 700;
+  font-size: 24px;  
+  color: black;
+}
+.formulario{
+  padding-top: 40px; 
+}
+.formulario p{
+  display: flex;
+}
+.formulario p label{
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+}
+.formulario p input,
+.formulario p textarea{
+  width: 100%;
+  background: #ddd;
+  border-radius: 5px;
+  border: 1px solid #999;
+  font-size: 14px;
+  padding: 6px 10px; 
+}
+
+.formulario p:nth-child(4){
+  align-items: start;
+}
+.formulario textarea{
+  resize: none;
+  height: 150px;
+  border-radius: 2.5%;
+  
+}
+
+.formulario input[type="submit"] {
+  background: #6da9ed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 15px;
+  padding: 6px 20px;
+  width: auto;
+  cursor: pointer;
+  border-color: #6da9ed;
+  position: relative;
+  left: 5rem;
+  font-family: 'Lato', sans-serif;;
+}
+.formulario input[type="submit"]:hover{
+  background-color: #2e64e1;
+}
+.contenedor-ubi{
+  display: flex;
+  width: 100%;
+}
+.ubi{
+  padding-top: 60px;
+  width: 100%;
+  height: 600px;
+}
+
+.texto-ubi{
+  padding-top: 3.5rem;
+  text-align: left;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+.mapa{
+  margin: auto;
+  width: 100%;
+  height: 400px;
+  padding-top: 45px; 
+}
+
+/* fin contacto */
+
+footer{
+  background-color: #ccc;
+  clear: both;
+  color:#333;
+  padding: 50px 0;
+  margin-top: 20px;
+  text-align: center;
+  height: 70px;
+  align-items: center;
+}
+
+.wpp-img {
+  width:70px; 
+  height:70px;
+}
+#whatsapp-icon{
+  position:fixed; 
+  right:10px; 
+  bottom:10px; 
+  text-align:center; 
+  padding:3px
+}
+.texto{
+  /* padding-top: -25px; */
+  color: black;
+  text-align: justify;
+  font-size: 17px;
+  line-height: 1.7;
+  padding-bottom: 6%;
+} 
+.texto h2{
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.nov-body, .nov-tit, .nov-subt{
+  text-align: justify;
+}
+.nov-body{
+  font-size: 1.1rem;
+}
+.nov-subt{
+  font-size: 40px;
+}
+.nov-tit{
+  font-size: 2.5rem;
+  
+}
+
+@media (max-width: 480px){
+  header{
+      flex-direction: column;
+      
+  }
+  nav{
+      padding: 10px 0px;
+  }
+  nav ul li{
+     font-size: 15px;
+     padding-right: 20px;
+  }
+  .ig-icono, .fbk-icono{
+      width: 20px;
+  }
+
+  
+}

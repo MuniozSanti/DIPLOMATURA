@@ -1,0 +1,1128 @@
+@media screen and (min-width: 768px) and (max-width: 1031px) {
+    header {
+        display: flex;
+        min-height: 70px;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        padding: 10px;
+        -webkit-box-shadow: 0px 2px 26px -12px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 2px 26px -12px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 2px 26px -12px rgba(0, 0, 0, 0.75);
+    }
+
+    .header {
+        z-index: 100;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .logo {
+        align-items: center;
+
+    }
+
+    .logo img {
+        height: 55px;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .menu ul li {
+        list-style: none;
+        /* display: flex;
+        flex-direction: row; */
+        padding: 20px 30px 0 0;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .holder-menu {
+        align-items: center;
+        padding-right: 10px;
+        font-weight: 800;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Lato', sans-serif;
+    }
+
+    nav a:hover {
+        color: blue;
+    }
+
+    .ig-icono,
+    .fbk-icono {
+        transition: all 0.3s ease 0.1s;
+        size: 6px;
+    }
+
+    .ig-icono:hover,
+    .fbk-icono:hover {
+        transform: scale(1.2);
+    }
+
+    .main {
+        max-width: 85%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .activo {
+        color: blue;
+    }
+
+    /* Nosotros */
+    .slider {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        background: blueviolet;
+        background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+        text-align: center;
+        padding-top: 15rem;
+        padding-bottom: 10rem;
+    }
+
+    .ola {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        height: 150px;
+        overflow: hidden;
+        display: none;
+    }
+
+    svg {
+        height: 100%;
+        width: 100%;
+    }
+
+    .titulo1 {
+        font-size: 45px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        margin-top: -4%;
+    }
+
+    .titulo2 {
+        font-size: 34px;
+        font-weight: 700;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .texto-main {
+        line-height: 1.7;
+        text-align: justify;
+    }
+
+    path {
+        stroke: none;
+        fill: rgb(255, 255, 255);
+    }
+
+    .main {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .main h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    /* fin nosotros */
+
+    /* novedades */
+    .nov-body {
+        font-size: 18px;
+    }
+
+    .nov-subt {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .nov-tit {
+        font-size: 28px;
+        font-weight: bolder;
+
+    }
+
+    /* fin novedades */
+
+    /* contacto */
+    .holder {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contacto div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .titulo-contacto {
+        padding-top: 7.3rem;
+        font-weight: 700;
+        font-size: 24px;
+        color: black;
+    }
+
+    .formulario {
+        padding-top: 40px;
+    }
+
+    .formulario p {
+        display: flex;
+    }
+
+    .formulario p label {
+        min-width: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .formulario p input,
+    .formulario p textarea {
+        width: 100%;
+        background: #ddd;
+        border-radius: 5px;
+        border: 1px solid #999;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .formulario p:nth-child(4) {
+        align-items: start;
+    }
+
+    .formulario textarea {
+        resize: none;
+        height: 150px;
+        border-radius: 2.5%;
+
+    }
+
+    .formulario input[type="submit"] {
+        background: #6da9ed;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        color: white;
+        font-size: 15px;
+        padding: 6px 20px;
+        width: auto;
+        cursor: pointer;
+        border-color: #6da9ed;
+        position: relative;
+        left: 5rem;
+        font-family: 'Lato', sans-serif;
+        ;
+    }
+
+    .formulario input[type="submit"]:hover {
+        background-color: #2e64e1;
+    }
+
+    .contenedor-ubi {
+        display: flex;
+        width: 100%;
+    }
+
+    .ubi {
+        padding-top: 5px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .texto-ubi {
+        padding-top: 3.5rem;
+        text-align: left;
+        margin: auto;
+        font-size: 24px;
+        font-weight: 700;
+        color: black;
+    }
+
+    .mapa {
+        margin: auto;
+        width: 100%;
+        height: 400px;
+        padding-top: 45px;
+    }
+
+    /* fin contacto */
+
+    /* productos */
+    .productos {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .holder,
+    .productos {
+        width: 95%;
+    }
+
+    .titulo-produc {
+        padding-top: 120px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 20%;
+    }
+
+    .nav-productos ul li {
+        display: flex;
+        font-size: 17px;
+        padding-top: 35px;
+        padding-right: 35px;
+        text-align: center;
+        font-weight: 700;
+        list-style-type: none;
+    }
+
+    .div-pileta {
+        padding-top: 120px;
+        /* width: 130%; */
+        height: 85%;
+        background-color: #bdbdbd88;
+        border-radius: 7px;
+        text-align: center;
+    }
+
+    .div-pileta h2 {
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+
+    .div-pileta,
+    .Card {
+        padding-right: 5px;
+        margin: auto;
+    }
+
+    .row {
+        padding: 30px 20px 0 20px;
+    }
+
+    .Card-Body {
+        height: 3rem;
+    }
+
+    .grupo-cartas {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .card {
+        /* margin-right: 20px; */
+        border-radius: 5px;
+        transition: all ease 0.3s;
+        font-size: 20px;
+    }
+
+    .card:hover {
+        -webkit-box-shadow: 5px 6px 5px 1px rgba(143, 143, 143, 1);
+        -moz-box-shadow: 5px 6px 5px 1px rgba(143, 143, 143, 1);
+        box-shadow: 5px 6px 5px 1px rgba(143, 143, 143, 1);
+
+        background-color: rgb(148, 148, 148);
+    }
+
+    .img:hover {
+        background-color: rgb(148, 148, 148);
+    }
+
+    /* fin productos */
+    .nov-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .toggle-menu {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    header {
+        display: flex;
+        height: 130px;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        padding: 10px;
+        -webkit-box-shadow: 0px 2px 26px -12px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 2px 26px -12px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 2px 26px -12px rgba(0, 0, 0, 0.75);
+    }
+
+    .header {
+        /* z-index: 100; */
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .logo {
+        /* align-items: center; */
+        margin: auto;
+    }
+
+    .logo img {
+        height: 55px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .main-menu {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu ul li {
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0px 20px 0 0;
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    .holder-menu {
+        /* align-items: center; */
+        padding-right: 1rem;
+        padding-left: 1rem;
+        font-weight: 800;
+        align-items: center;
+        font-size: 0.9rem;
+
+        position: relative;
+        top: 25px;
+        left: 0;
+        right: 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Lato', sans-serif;
+    }
+
+    nav a:hover {
+        color: blue;
+    }
+
+    .ig-icono,
+    .fbk-icono {
+        transition: all 0.3s ease 0.1s;
+        height: 20px;
+        width: 20px;
+    }
+
+    .ig-icono:hover,
+    .fbk-icono:hover {
+        transform: scale(1.2);
+    }
+
+    .main {
+        max-width: 85%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .activo {
+        color: blue;
+    }
+
+    /* Nosotros */
+    .slider {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        background: blueviolet;
+        background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+        text-align: center;
+        padding-top: 15rem;
+        padding-bottom: 10rem;
+    }
+
+    .ola {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        height: 150px;
+        overflow: hidden;
+        display: none;
+    }
+
+    svg {
+        height: 100%;
+        width: 100%;
+    }
+
+    .titulo1 {
+        font-size: 45px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        margin-top: -4%;
+    }
+
+    .titulo2 {
+        font-size: 34px;
+        font-weight: 700;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .texto-main {
+        line-height: 1.7;
+        text-align: justify;
+    }
+
+    path {
+        stroke: none;
+        fill: rgb(255, 255, 255);
+    }
+
+    .main {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .main h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    /* fin nosotros */
+
+    /* novedades */
+    .nov-body {
+        font-size: 18px;
+    }
+
+    .nov-subt {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .nov-tit {
+        font-size: 28px;
+        font-weight: bolder;
+
+    }
+
+    /* fin novedades */
+
+    /* contacto */
+    .holder {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contacto div {
+        width: 90%;
+        margin: auto;
+    }
+
+    .titulo-contacto {
+        padding-top: 7.3rem;
+        font-weight: 700;
+        font-size: 24px;
+        color: black;
+    }
+
+    .formulario {
+        padding-top: 40px;
+    }
+
+    .formulario p {
+        display: flex;
+    }
+
+    .formulario p label {
+        min-width: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .formulario p input,
+    .formulario p textarea {
+        width: 100%;
+        background: #ddd;
+        border-radius: 5px;
+        border: 1px solid #999;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .formulario p:nth-child(4) {
+        align-items: start;
+    }
+
+    .formulario textarea {
+        resize: none;
+        height: 150px;
+        border-radius: 2.5%;
+
+    }
+
+    .formulario input[type="submit"] {
+        background: #6da9ed;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        color: white;
+        font-size: 15px;
+        padding: 6px 20px;
+        width: auto;
+        cursor: pointer;
+        border-color: #6da9ed;
+        position: relative;
+        left: 5rem;
+        font-family: 'Lato', sans-serif;
+        ;
+    }
+
+    .formulario input[type="submit"]:hover {
+        background-color: #2e64e1;
+    }
+
+    .contenedor-ubi {
+        display: flex;
+        width: 100%;
+    }
+
+    .ubi {
+        padding-top: 5px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .texto-ubi {
+        padding-top: 3.5rem;
+        text-align: left;
+        margin: auto;
+        font-size: 24px;
+        font-weight: 700;
+        color: black;
+    }
+
+    .mapa {
+        margin: auto;
+        width: 100%;
+        height: 400px;
+        padding-top: 45px;
+    }
+
+    /* fin contacto */
+
+    /* productos */
+    .productos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .holder, .productos {
+        width: 100%;
+        padding-top: 12%;
+        gap: 5px;
+    }
+
+    .titulo-produc {
+        padding-top: 120px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 20%;
+        font-size: 22px;
+    }
+    .nav-productos ul{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-productos ul li {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding-top: 35px;
+        text-align: center;
+        font-weight: 700;
+        list-style-type: none;
+    }
+
+    .div-pileta {
+        padding-top: 100px;
+        height: 85%;
+        background-color: #bdbdbd88;
+        border-radius: 7px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .div-pileta h2 {
+        padding-bottom: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .div-pileta,
+    .Card {
+        padding-right: 5px;
+        margin: auto;
+    }
+
+    .row {
+        padding: 30px 20px 0 20px;
+    }
+
+    .Card-Body {
+        height: 4rem;
+    }
+
+    .grupo-cartas {
+        margin: auto;
+        font-size: 10px;
+    }
+
+    .card {
+        /* margin-right: 20px; */
+        border-radius: 5px;
+        transition: all ease 0.3s;
+        font-size: 20px;
+    }
+
+    .card:hover {
+        -webkit-box-shadow: 5px 6px 5px 1px rgba(143, 143, 143, 1);
+        -moz-box-shadow: 5px 6px 5px 1px rgba(143, 143, 143, 1);
+        box-shadow: 5px 6px 5px 1px rgba(143, 143, 143, 1);
+
+        background-color: rgb(148, 148, 148);
+    }
+
+    .img:hover {
+        background-color: rgb(148, 148, 148);
+    }
+
+    /* fin productos */
+    .nov-img {
+        width: 100%;
+        height: 200px;
+    }
+    .main, .novedades{
+        padding-top: 12%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: flex;
+        height: 110px;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        padding: 10px;
+        -webkit-box-shadow: 0px 2px 26px -12px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 2px 26px -12px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 2px 26px -12px rgba(0, 0, 0, 0.75);
+    }
+
+    .header {
+        /* z-index: 100; */
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .logo {
+        /* align-items: center; */
+        margin: auto;
+    }
+
+    .logo img {
+        height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .main-menu {
+        margin: 0;
+        padding: 0;
+    }
+    /* .main-menu ul li{
+        font-size: 0.3rem;
+    } */
+
+    .menu ul li {
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0px 8px 17px 0;
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    .holder-menu {
+
+        padding-right: 0;
+        padding-left: 0;
+        font-weight: 600;
+        align-items: center;
+        font-size: 5px;
+
+        position: relative;
+        top: 20px;
+        left: 0;
+        right: 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Lato', sans-serif;
+    }
+
+    nav a:hover {
+        color: blue;
+    }
+
+    .ig-icono,
+    .fbk-icono {
+        transition: all 0.3s ease 0.1s;
+        height: 16px;
+        width: 16px;
+    }
+
+    .ig-icono:hover,
+    .fbk-icono:hover {
+        transform: scale(1.2);
+    }
+
+    .main {
+        max-width: 85%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .activo {
+        color: blue;
+    }
+
+    /* Nosotros */
+    .slider {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        background: blueviolet;
+        background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+        text-align: center;
+        padding-top: 15rem;
+        padding-bottom: 10rem;
+    }
+
+    .ola {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        height: 150px;
+        overflow: hidden;
+        display: none;
+    }
+
+    svg {
+        height: 100%;
+        width: 100%;
+    }
+
+    .titulo1 {
+        font-size: 45px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        margin-top: -4%;
+    }
+
+    .titulo2 {
+        font-size: 34px;
+        font-weight: 700;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .texto-main {
+        line-height: 1.7;
+        text-align: justify;
+    }
+
+    path {
+        stroke: none;
+        fill: rgb(255, 255, 255);
+    }
+
+    .main {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .main h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    /* fin nosotros */
+
+    /* novedades */
+    .nov-body {
+        font-size: 18px;
+    }
+
+    .nov-subt {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .nov-tit {
+        font-size: 28px;
+        font-weight: bolder;
+
+    }
+
+    /* fin novedades */
+
+    /* contacto */
+    .holder {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contacto div {
+        width: 90%;
+        margin: auto;
+    }
+
+    .titulo-contacto {
+        padding-top: 7.3rem;
+        font-weight: 700;
+        font-size: 24px;
+        color: black;
+    }
+
+    .formulario {
+        padding-top: 40px;
+    }
+
+    .formulario p {
+        display: flex;
+    }
+
+    .formulario p label {
+        min-width: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .formulario p input,
+    .formulario p textarea {
+        width: 100%;
+        background: #ddd;
+        border-radius: 5px;
+        border: 1px solid #999;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .formulario p:nth-child(4) {
+        align-items: start;
+    }
+
+    .formulario textarea {
+        resize: none;
+        height: 150px;
+        border-radius: 2.5%;
+
+    }
+
+    .formulario input[type="submit"] {
+        background: #6da9ed;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        color: white;
+        font-size: 15px;
+        padding: 6px 20px;
+        width: auto;
+        cursor: pointer;
+        border-color: #6da9ed;
+        position: relative;
+        left: 5rem;
+        font-family: 'Lato', sans-serif;
+        ;
+    }
+
+    .formulario input[type="submit"]:hover {
+        background-color: #2e64e1;
+    }
+
+    .contenedor-ubi {
+        display: flex;
+        width: 100%;
+    }
+
+    .ubi {
+        padding-top: 5px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .texto-ubi {
+        padding-top: 3.5rem;
+        text-align: left;
+        margin: auto;
+        font-size: 24px;
+        font-weight: 700;
+        color: black;
+    }
+
+    .mapa {
+        margin: auto;
+        width: 100%;
+        height: 400px;
+        padding-top: 45px;
+    }
+
+    /* fin contacto */
+
+    /* productos */
+    .productos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .holder, .productos {
+        width: 100%;
+        padding-top: 12%;
+        gap: 5px;
+    }
+
+    .titulo-produc {
+        padding-top: 120px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 20%;
+        font-size: 22px;
+    }
+    .nav-productos ul{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-productos ul li {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding-top: 35px;
+        text-align: center;
+        font-weight: 700;
+        list-style-type: none;
+    }
+
+    .div-pileta {
+        padding-top: 100px;
+        height: 85%;
+        background-color: #bdbdbd88;
+        border-radius: 7px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .div-pileta h2 {
+        padding-bottom: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .div-pileta,
+    .Card {
+        padding-right: 5px;
+        margin: auto;
+    }
+
+    .row {
+        padding: 30px 20px 0 20px;
+    }
+
+    .Card-Body {
+        height: 4rem;
+    }
+
+    .grupo-cartas {
+        margin: auto;
+        font-size: 10px;
+    }
+
+    .card {
+        /* margin-right: 20px; */
+        border-radius: 5px;
+        transition: all ease 0.3s;
+        font-size: 20px;
+    }
+
+    .card:hover {
+        -webkit-box-shadow: 5px 6px 5px 1px rgba(143, 143, 143, 1);
+        -moz-box-shadow: 5px 6px 5px 1px rgba(143, 143, 143, 1);
+        box-shadow: 5px 6px 5px 1px rgba(143, 143, 143, 1);
+
+        background-color: rgb(148, 148, 148);
+    }
+
+    .img:hover {
+        background-color: rgb(148, 148, 148);
+    }
+
+    /* fin productos */
+    .nov-img {
+        width: 100%;
+        height: 200px;
+    }
+    .main, .novedades{
+        padding-top: 12%;
+    }
+    
+}
